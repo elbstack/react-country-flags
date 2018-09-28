@@ -1,0 +1,19 @@
+{
+  "printWidth": 120,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "overrides": [
+    {
+      "files": "*.css",
+      "options": { "singleQuote": false }
+    },
+    {
+      "files": ".eslintrc.json",
+      "options": { "parser": "json" }
+    },
+    {
+      "files": ".prettierrc",
+      "options": { "parser": "json" }
+    }
+  ]
+}

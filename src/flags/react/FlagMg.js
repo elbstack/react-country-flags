@@ -1,0 +1,11 @@
+import React from 'react';
+
+const FlagMg = props => (
+  <svg viewBox="0 0 900 600" {...props}>
+    <path fill="#007E3A" d="M0 0h900v600H0z" />
+    <path fill="#FC3D32" d="M0 0h900v300H0z" />
+    <path fill="#FFF" d="M0 0h300v600H0z" />
+  </svg>
+);
+
+export default FlagMg;

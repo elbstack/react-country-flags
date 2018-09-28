@@ -1,25 +1,25 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Flag, { countries } from './components/Flag';
+
+const urlParams = new URLSearchParams(window.location.search);
+
+const filteredCountries = urlParams.has('countries') ? urlParams.get('countries').split(',') : countries;
+
+if(urlParams.has('square')) {
+  document.documentElement.style.setProperty('--height', urlParams.has('square') ? 'var(--width)' : 'auto')
+}
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        {countries.filter(name => filteredCountries.indexOf(name) > -1).map(name => (
+          <div className="flag">
+            <Flag key={name} country={name} />
+            <strong>{name}</strong>
+          </div>
+        ))}
       </div>
     );
   }
