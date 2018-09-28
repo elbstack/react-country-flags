@@ -10,8 +10,7 @@
   "jsnext:main": "dist/index.es.js",
   "engines": {
     "node": ">=8",
-    "npm": ">=5",
-    "yarn": "YARN NO LONGER USED - use npm instead."
+    "npm": ">=5"
   },
   "files": [
     "dist",
