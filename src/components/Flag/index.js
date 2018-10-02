@@ -17,6 +17,7 @@ export default class Flags extends Component {
 
   static defaultProps = {
     country: null,
+    asSquare: false,
   };
 
   componentDidMount() {
@@ -38,10 +39,10 @@ export default class Flags extends Component {
   }
 
   render() {
-    const { isSquare } = this.props;
+    const { asSquare } = this.props;
     const { flag } = this.state;
     if (!flag) return null;
-    if (!isSquare) return createElement(flag);
+    if (!asSquare) return createElement(flag);
     return (
       <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
         {createElement(flag)}
@@ -52,5 +53,5 @@ export default class Flags extends Component {
 
 Flags.propTypes = {
   country: PropTypes.string,
-  isSquare: PropTypes.bool,
+  asSquare: PropTypes.bool,
 };
