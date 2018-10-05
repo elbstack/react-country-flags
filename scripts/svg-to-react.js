@@ -29,6 +29,7 @@ const isFile = async filePath => {
   }
 };
 
+const regexDoubleProps = () => / {\.\.\.props}/gm;
 const regexId = () => /id="(.)"/gm;
 const replaceSomething = (search, replace, str) => str.replace(new RegExp(search, 'g'), replace);
 const replaceId = (str, [search, replace]) => replaceSomething(`"${search}"`, `"${replace}"`, str);
@@ -65,37 +66,41 @@ async function main() {
         // filter dashed country names
         .filter(name => name.indexOf('-') === -1)
         .map(async (name, i) => {
-        const entryIsFile = await isFile(path.resolve(sourcePath, name));
-        if (entryIsFile) {
-          const content = await readFileAsync(path.resolve(sourcePath, name));
-          const strippedName = name.substr(0, name.indexOf('.'));
-          let component = await svgr(
-            content,
-            { noDimensions: true },
-            { componentName: 'Flag' + snakeToCamel(strippedName) }
-          );
+          const entryIsFile = await isFile(path.resolve(sourcePath, name));
+          if (entryIsFile) {
+            const content = await readFileAsync(path.resolve(sourcePath, name));
+            const strippedName = name.substr(0, name.indexOf('.'));
+            let component = await svgr(
+              content,
+              { noDimensions: true },
+              { componentName: 'Flag' + snakeToCamel(strippedName) }
+            );
 
-          if (component.indexOf('xmlnsXlink') > 0) {
-            component
-              .match(regexId())
-              .map(rx => regexId().exec(rx)[1])
-              .map(id => {
-                return [id, getHash(`${strippedName}-${id}`)];
-              })
-              .forEach(replacer => {
-                component = replaceId(component, replacer);
-                component = replaceXlinkHref(component, replacer);
-                component = replaceClipPath(component, replacer);
-              });
+            if (component.indexOf('xmlnsXlink') > 0) {
+              component
+                .match(regexId())
+                .map(rx => regexId().exec(rx)[1])
+                .map(id => {
+                  return [id, getHash(`${strippedName}-${id}`)];
+                })
+                .forEach(replacer => {
+                  component = replaceId(component, replacer);
+                  component = replaceXlinkHref(component, replacer);
+                  component = replaceClipPath(component, replacer);
+                });
+            }
+
+            if (component.match(regexDoubleProps()).length > 1) {
+              component = component.replace(regexDoubleProps(), (match, offset) => (offset > 128 ? '' : match));
+            }
+
+            await writeFileAsync(path.resolve(dirPath, `Flag${snakeToCamel(strippedName)}.js`), component, {
+              encoding: 'utf8',
+            });
+            return name;
           }
-
-          await writeFileAsync(path.resolve(dirPath, `Flag${snakeToCamel(strippedName)}.js`), component, {
-            encoding: 'utf8',
-          });
-          return name;
-        }
-        return null;
-      })
+          return null;
+        })
     ))
       .filter(Boolean)
       .filter(name => name.indexOf('index') < 0)
