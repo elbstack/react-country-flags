@@ -21,6 +21,7 @@
   "scripts": {
     "build:flags": "node ./scripts/svg-to-react.js",
     "start": "react-scripts start",
+    "preversion": "npm run build",
     "build": "rollup -c",
     "deploy": "react-scripts build",
     "test": "react-scripts test",
