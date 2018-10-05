@@ -2,7 +2,7 @@ import React from 'react';
 
 const FlagNu = props => (
   <svg xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 120 60" {...props}>
-    <svg viewBox="2 3 120 60" {...props}>
+    <svg viewBox="2 3 120 60">
       <defs>
         <path id="s052d0373" d="M0 0v15h70v15H60L0 0zm0 30v10h30V0h30L0 30z" />
       </defs>

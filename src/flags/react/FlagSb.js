@@ -2,7 +2,7 @@ import React from 'react';
 
 const FlagSb = props => (
   <svg xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 400" {...props}>
-    <svg viewBox="0 0 800 400" {...props}>
+    <svg viewBox="0 0 800 400">
       <path d="M0 400V0h800z" fill="#0051ba" />
       <path d="M0 400h800V0z" fill="#215b33" />
       <path d="M0 400L800 0" stroke="#fcd116" strokeWidth={36} />
