@@ -41,11 +41,11 @@ export default class Flags extends Component {
   render() {
     const { asSquare, country, ...props } = this.props;
     const { flag } = this.state;
-    if (!flag) return null;
+    if (!flag && !asSquare) return null;
     if (!asSquare) return createElement(flag, props);
     return (
       <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" {...props}>
-        {createElement(flag)}
+        {!flag ? null : createElement(flag)}
       </svg>
     );
   }
