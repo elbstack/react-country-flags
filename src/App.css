@@ -1,27 +1,65 @@
 :root {
   --width: 200px;
   --height: auto;
+  background-color: grey;
+  padding: 25px;
 }
+
 .App {
   text-align: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, var(--width));
   grid-gap: 10px;
-  background-color: grey;
-  padding: 25px;
 }
 
 .flag {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: var(--height) auto;
-  outline: 2px solid grey;
   background-color: white;
-  transition: .05s ease-in-out;
+  transition: 0.05s ease-in-out;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  border-radius: 3px 3px 0 0;
+  text-decoration: none;
 }
 
 .flag:hover {
-  transform: scale(1.2);
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.single {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto 1fr auto;
+  grid-row-gap: 0.5em;
+}
+
+.single-flag {
+  grid-column: 1 / 4;
+}
+
+.single-title {
+  order: 4;
+  display: block;
+  text-align: center;
+}
+
+.single-link {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.single-link.back {
+  order: 3;
+}
+
+.single-link.forward {
+  order: 5;
+  justify-content: flex-end;
 }
 
 svg {
@@ -31,5 +69,5 @@ svg {
 strong {
   color: white;
   background-color: #585858;
-  padding: .32em;
+  padding: 0.32em;
 }
