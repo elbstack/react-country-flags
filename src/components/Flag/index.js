@@ -1,4 +1,4 @@
-import React, { Component, createElement } from 'react';
+import React, { PureComponent as Component, createElement } from 'react';
 import PropTypes from 'prop-types';
 import flags from '../../flags/react';
 
@@ -11,6 +11,7 @@ const fetchFlag = async country => {
 export const countries = (() => Object.keys(flags))();
 
 export default class Flags extends Component {
+  isMounted = true;
   state = {
     flag: null,
   };
@@ -32,10 +33,15 @@ export default class Flags extends Component {
     }
   }
 
-  async updateFlag() {
+  componentWillUnmount() {
+    this.isMounted = false;
+  }
+
+  updateFlag() {
     const { country } = this.props;
-    const flag = await fetchFlag(country);
-    this.setState({ flag });
+    fetchFlag(country).then(flag => {
+      if (this.isMounted) this.setState({ flag });
+    });
   }
 
   render() {
