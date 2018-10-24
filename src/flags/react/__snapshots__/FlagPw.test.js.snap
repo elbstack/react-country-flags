@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagPw renders without crashing 1`] = `
+<svg
+  viewBox="0 0 800 500"
+>
+  <path
+    d="M0 0h800v500H0z"
+    fill="#4AADD6"
+  />
+  <circle
+    cx={350}
+    cy={250}
+    fill="#FFDE00"
+    r={150}
+  />
+</svg>
+`;

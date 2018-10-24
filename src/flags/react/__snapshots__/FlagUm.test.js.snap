@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagUm renders without crashing 1`] = `
+<svg
+  viewBox="0 0 7410 3900"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <path
+    d="M0 0h7410v3900H0z"
+    fill="#b22234"
+  />
+  <path
+    d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0"
+    stroke="#fff"
+    strokeWidth={300}
+  />
+  <path
+    d="M0 0h2964v2100H0z"
+    fill="#3c3b6e"
+  />
+  <g
+    fill="#fff"
+  >
+    <g
+      id="sd492708b"
+    >
+      <g
+        id="sb046aaaf"
+      >
+        <g
+          id="s320a5d8f"
+        >
+          <g
+            id="s67032ec6"
+          >
+            <path
+              d="M247 90l70.534 217.082-184.66-134.164h228.253L176.466 307.082z"
+              id="s23dcff17"
+            />
+            <use
+              xlinkHref="#s23dcff17"
+              y={420}
+            />
+            <use
+              xlinkHref="#s23dcff17"
+              y={840}
+            />
+            <use
+              xlinkHref="#s23dcff17"
+              y={1260}
+            />
+          </g>
+          <use
+            xlinkHref="#s23dcff17"
+            y={1680}
+          />
+        </g>
+        <use
+          x={247}
+          xlinkHref="#s67032ec6"
+          y={210}
+        />
+      </g>
+      <use
+        x={494}
+        xlinkHref="#sb046aaaf"
+      />
+    </g>
+    <use
+      x={988}
+      xlinkHref="#sd492708b"
+    />
+    <use
+      x={1976}
+      xlinkHref="#sb046aaaf"
+    />
+    <use
+      x={2470}
+      xlinkHref="#s320a5d8f"
+    />
+  </g>
+</svg>
+`;

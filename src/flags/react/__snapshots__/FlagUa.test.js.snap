@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagUa renders without crashing 1`] = `
+<svg
+  viewBox="0 0 1200 800"
+>
+  <path
+    d="M0 0h1200v800H0z"
+    fill="#005BBB"
+  />
+  <path
+    d="M0 400h1200v400H0z"
+    fill="#FFD500"
+  />
+</svg>
+`;

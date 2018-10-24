@@ -20,6 +20,18 @@ ${flags}
 };
 `;
 
+const fileTestTemplate = flag => `import React from 'react';
+import renderer from 'react-test-renderer';
+import Flag from './${flag}';
+
+it('${flag} renders without crashing', () => {
+  const component = renderer.create(<Flag />);
+
+  let tree = component.toJSON();
+  expect(tree).toMatchSnapshot();
+});
+`;
+
 const isFile = async filePath => {
   try {
     const stat = await statAsync(filePath);
@@ -94,7 +106,12 @@ async function main() {
               component = component.replace(regexDoubleProps(), (match, offset) => (offset > 128 ? '' : match));
             }
 
-            await writeFileAsync(path.resolve(dirPath, `Flag${snakeToCamel(strippedName)}.js`), component, {
+            const fileName = `Flag${snakeToCamel(strippedName)}`;
+
+            await writeFileAsync(path.resolve(dirPath, `${fileName}.js`), component, {
+              encoding: 'utf8',
+            });
+            await writeFileAsync(path.resolve(dirPath, `${fileName}.test.js`), fileTestTemplate(fileName), {
               encoding: 'utf8',
             });
             return name;

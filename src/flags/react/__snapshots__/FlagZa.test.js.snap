@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagZa renders without crashing 1`] = `
+<svg
+  viewBox="0 0 9 6"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <clipPath
+    id="s62718bce"
+  >
+    <path
+      d="M0 0l4.5 3L0 6"
+      id="s55eec673"
+    />
+  </clipPath>
+  <clipPath
+    id="se7780f5a"
+  >
+    <path
+      d="M0 0h9v6H0z"
+    />
+  </clipPath>
+  <g
+    clipPath="url(#se7780f5a)"
+  >
+    <path
+      d="M0 0v6h9V0z"
+      fill="#002395"
+    />
+    <path
+      d="M0 0v3h9V0z"
+      fill="#de3831"
+    />
+    <g
+      stroke="#fff"
+      strokeWidth={2}
+    >
+      <path
+        d="M0 0l4.5 3L0 6m4.5-3H9"
+        id="s549537da"
+      />
+      <use
+        clipPath="url(#s62718bce)"
+        stroke="#ffb612"
+        xlinkHref="#s55eec673"
+      />
+    </g>
+    <use
+      fill="none"
+      stroke="#007a4d"
+      strokeWidth={1.2}
+      xlinkHref="#s549537da"
+    />
+  </g>
+</svg>
+`;

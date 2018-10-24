@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagQa renders without crashing 1`] = `
+<svg
+  preserveAspectRatio="none"
+  viewBox="0 0 75 18"
+>
+  <path
+    d="M0 0h75v18H0z"
+    fill="#8d1b3d"
+  />
+  <path
+    d="M22 18H0V0h22l6 1-6 1 6 1-6 1 6 1-6 1 6 1-6 1 6 1-6 1 6 1-6 1 6 1-6 1 6 1-6 1 6 1z"
+    fill="#fff"
+  />
+</svg>
+`;

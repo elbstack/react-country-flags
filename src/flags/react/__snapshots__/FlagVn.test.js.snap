@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagVn renders without crashing 1`] = `
+<svg
+  viewBox="-15 -10 30 20"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <path
+    d="M-20-15h40v30h-40z"
+    fill="#DA251d"
+  />
+  <g
+    id="sbd7c3fad"
+    transform="translate(0 -6)"
+  >
+    <path
+      d="M0 0v6h4"
+      fill="#FF0"
+      id="sf915d7b8"
+      transform="rotate(18)"
+    />
+    <use
+      transform="scale(-1 1)"
+      xlinkHref="#sf915d7b8"
+    />
+  </g>
+  <g
+    id="sca97a1a1"
+    transform="rotate(72)"
+  >
+    <use
+      xlinkHref="#sbd7c3fad"
+    />
+    <use
+      transform="rotate(72)"
+      xlinkHref="#sbd7c3fad"
+    />
+  </g>
+  <use
+    transform="scale(-1 1)"
+    xlinkHref="#sca97a1a1"
+  />
+</svg>
+`;

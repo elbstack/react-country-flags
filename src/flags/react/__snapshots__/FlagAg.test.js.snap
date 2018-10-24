@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagAg renders without crashing 1`] = `
+<svg
+  viewBox="0 0 138 92"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <path
+    d="M0 0h138v92H0z"
+    fill="#fff"
+  />
+  <path
+    d="M0 0h138v36H0z"
+  />
+  <g
+    transform="translate(69 36)"
+  >
+    <g
+      id="sf44718e4"
+    >
+      <path
+        d="M-30 0L0-5.742V5.742z"
+        fill="#fcd116"
+        id="sc66e9395"
+      />
+      <use
+        transform="rotate(22.5)"
+        xlinkHref="#sc66e9395"
+      />
+      <use
+        transform="rotate(45)"
+        xlinkHref="#sc66e9395"
+      />
+    </g>
+    <use
+      transform="rotate(67.5)"
+      xlinkHref="#sf44718e4"
+    />
+    <use
+      transform="rotate(135)"
+      xlinkHref="#sf44718e4"
+    />
+  </g>
+  <path
+    d="M0 36h138v20H0z"
+    fill="#0072c6"
+  />
+  <path
+    d="M0 0v92h68M138 0v92H68"
+    fill="#ce1126"
+  />
+</svg>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagNo renders without crashing 1`] = `
+<svg
+  viewBox="0 0 1100 800"
+>
+  <path
+    d="M0 0h1100v800H0z"
+    fill="#ef2b2d"
+  />
+  <path
+    d="M300 0h200v800H300z"
+    fill="#fff"
+  />
+  <path
+    d="M0 300h1100v200H0z"
+    fill="#fff"
+  />
+  <path
+    d="M350 0h100v800H350z"
+    fill="#002868"
+  />
+  <path
+    d="M0 350h1100v100H0z"
+    fill="#002868"
+  />
+</svg>
+`;

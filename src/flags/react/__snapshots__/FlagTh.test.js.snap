@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagTh renders without crashing 1`] = `
+<svg
+  viewBox="0 0 900 600"
+>
+  <path
+    d="M0 0h900v600H0z"
+    fill="#A51931"
+  />
+  <path
+    d="M0 100h900v400H0z"
+    fill="#F4F5F8"
+  />
+  <path
+    d="M0 200h900v200H0z"
+    fill="#2D2A4A"
+  />
+</svg>
+`;

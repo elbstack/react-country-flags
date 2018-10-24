@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagHm renders without crashing 1`] = `
+<svg
+  viewBox="0 0 10080 5040"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <defs>
+    <clipPath
+      id="s061baa09"
+    >
+      <path
+        d="M0 0v1.5h7V3H6zm6 0H3v3.5H0V3z"
+      />
+    </clipPath>
+    <path
+      d="M0-360l69.421 215.845 212.038-80.301L155.99-35.603l194.985 115.71-225.881 19.651 31.105 224.59L0 160l-156.198 164.349 31.105-224.59-225.881-19.651 194.986-115.711-125.471-188.853 212.038 80.301z"
+      id="sa5fd8f2c"
+    />
+    <path
+      d="M0-210L54.86-75.508l144.862 10.614L88.765 28.842l34.67 141.052L0 93.334l-123.435 76.56 34.67-141.052-110.957-93.736L-54.86-75.508z"
+      id="s39263a8a"
+    />
+    <use
+      id="s26848e82"
+      transform="scale(2.1)"
+      xlinkHref="#sa5fd8f2c"
+    />
+  </defs>
+  <path
+    d="M0 0h10080v5040H0z"
+    fill="#00008b"
+  />
+  <path
+    d="M0 0l5040 2520m0-2520L0 2520"
+    stroke="#fff"
+    strokeWidth={504}
+  />
+  <path
+    clipPath="url(#s061baa09)"
+    d="M0 0l6 3m0-3L0 3"
+    stroke="red"
+    strokeWidth={0.4}
+    transform="scale(840)"
+  />
+  <path
+    d="M2520 0v2940M0 1260h5880"
+    stroke="#fff"
+    strokeWidth={840}
+  />
+  <path
+    d="M2520 0v2940M0 1260h5880"
+    stroke="red"
+    strokeWidth={504}
+  />
+  <path
+    d="M0 2520h5040V0h1680v3360H0z"
+    fill="#00008b"
+  />
+  <g
+    fill="#fff"
+  >
+    <use
+      x={2520}
+      xlinkHref="#s26848e82"
+      y={3780}
+    />
+    <use
+      x={7560}
+      xlinkHref="#sa5fd8f2c"
+      y={4200}
+    />
+    <use
+      x={6300}
+      xlinkHref="#sa5fd8f2c"
+      y={2205}
+    />
+    <use
+      x={7560}
+      xlinkHref="#sa5fd8f2c"
+      y={840}
+    />
+    <use
+      x={8680}
+      xlinkHref="#sa5fd8f2c"
+      y={1869}
+    />
+    <use
+      x={8064}
+      xlinkHref="#s39263a8a"
+      y={2730}
+    />
+  </g>
+</svg>
+`;

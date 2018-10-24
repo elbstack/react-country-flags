@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagBi renders without crashing 1`] = `
+<svg
+  viewBox="0 0 500 300"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <defs>
+    <g
+      fill="#1eb53a"
+      id="se6fdf592"
+    >
+      <g
+        id="s0c0c4fed"
+      >
+        <g
+          id="sa8e2a64b"
+        >
+          <g
+            id="s25c8ce82"
+          >
+            <path
+              d="M0-20V0h20"
+              id="sc56da287"
+              transform="rotate(30 0 -20)"
+            />
+            <use
+              transform="scale(-1 1)"
+              xlinkHref="#sc56da287"
+            />
+          </g>
+          <use
+            transform="rotate(120)"
+            xlinkHref="#s25c8ce82"
+          />
+          <use
+            transform="rotate(240)"
+            xlinkHref="#s25c8ce82"
+          />
+        </g>
+        <use
+          transform="rotate(180)"
+          xlinkHref="#sa8e2a64b"
+        />
+      </g>
+      <use
+        fill="#ce1126"
+        transform="scale(.82)"
+        xlinkHref="#s0c0c4fed"
+      />
+    </g>
+    <use
+      id="se40402f7"
+      x={250}
+      xlinkHref="#se6fdf592"
+      y={106}
+    />
+  </defs>
+  <path
+    d="M0 0h500L0 300h500z"
+    fill="#ce1126"
+  />
+  <path
+    d="M0 0v300L500 0v300z"
+    fill="#1eb53a"
+  />
+  <path
+    d="M0 0l500 300m0-300L0 300"
+    stroke="#fff"
+    strokeWidth={40}
+  />
+  <circle
+    cx={250}
+    cy={150}
+    fill="#fff"
+    r={85}
+  />
+  <use
+    xlinkHref="#se40402f7"
+  />
+  <use
+    transform="rotate(120 250 150)"
+    xlinkHref="#se40402f7"
+  />
+  <use
+    transform="rotate(240 250 150)"
+    xlinkHref="#se40402f7"
+  />
+</svg>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagNg renders without crashing 1`] = `
+<svg
+  viewBox="0 0 6 3"
+>
+  <path
+    d="M0 0h6v3H0z"
+    fill="#008751"
+  />
+  <path
+    d="M2 0h2v3H2z"
+    fill="#FFF"
+  />
+</svg>
+`;

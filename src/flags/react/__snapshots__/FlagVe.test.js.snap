@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagVe renders without crashing 1`] = `
+<svg
+  viewBox="0 0 180 120"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <defs>
+    <g
+      id="s17194599"
+      transform="translate(0 -36)"
+    >
+      <g
+        id="sb6cb2187"
+      >
+        <g
+          id="s70610266"
+        >
+          <path
+            d="M0-5v5h3z"
+            fill="#fff"
+            id="sa8143e40"
+            transform="rotate(18 0 -5)"
+          />
+          <use
+            transform="scale(-1 1)"
+            xlinkHref="#sa8143e40"
+          />
+        </g>
+        <use
+          transform="rotate(72)"
+          xlinkHref="#s70610266"
+        />
+      </g>
+      <use
+        transform="rotate(-72)"
+        xlinkHref="#s70610266"
+      />
+      <use
+        transform="rotate(144)"
+        xlinkHref="#sb6cb2187"
+      />
+    </g>
+  </defs>
+  <path
+    d="M0 0h180v120H0z"
+    fill="#cf142b"
+  />
+  <path
+    d="M0 0h180v80H0z"
+    fill="#00247d"
+  />
+  <path
+    d="M0 0h180v40H0z"
+    fill="#fc0"
+  />
+  <g
+    transform="translate(90 84)"
+  >
+    <g
+      id="s5e5470d0"
+    >
+      <g
+        id="sf6865a85"
+      >
+        <use
+          transform="rotate(10)"
+          xlinkHref="#s17194599"
+        />
+        <use
+          transform="rotate(30)"
+          xlinkHref="#s17194599"
+        />
+      </g>
+      <use
+        transform="rotate(40)"
+        xlinkHref="#sf6865a85"
+      />
+    </g>
+    <use
+      transform="rotate(-80)"
+      xlinkHref="#s5e5470d0"
+    />
+  </g>
+</svg>
+`;

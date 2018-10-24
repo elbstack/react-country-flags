@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagGf renders without crashing 1`] = `
+<svg
+  viewBox="0 0 900 600"
+>
+  <path
+    d="M0 0h900v600z"
+    fill="#078930"
+  />
+  <path
+    d="M0 0l900 600H0z"
+    fill="#FCDD09"
+  />
+  <path
+    d="M450 200l58.779 180.902-153.885-111.804h190.212L391.22 380.902z"
+    fill="#DA121A"
+  />
+</svg>
+`;

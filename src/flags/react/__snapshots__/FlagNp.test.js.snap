@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagNp renders without crashing 1`] = `
+<svg
+  viewBox="-17.582 -4.664 71.571 87.246"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <use
+    stroke="#003893"
+    strokeWidth={5.165}
+    xlinkHref="#sab34580f"
+  />
+  <path
+    d="M-15 37.574h60L-15 0v80h60l-60-60z"
+    fill="#DC143C"
+    id="sab34580f"
+  />
+  <g
+    fill="#fff"
+  >
+    <path
+      d="M-11.95 23.483a12.84 12.84 0 0 0 23.9 0 11.95 11.95 0 0 1-23.9 0"
+    />
+    <g
+      transform="translate(0 29.045) scale(5.56106)"
+    >
+      <circle
+        r={1}
+      />
+      <g
+        id="sdf2c85fb"
+      >
+        <g
+          id="se6643760"
+        >
+          <path
+            d="M.195-.98L0-1.39l-.195.408"
+            id="see3d2fc5"
+            transform="rotate(11.25)"
+          />
+          <use
+            transform="rotate(22.5)"
+            xlinkHref="#see3d2fc5"
+          />
+          <use
+            transform="rotate(45)"
+            xlinkHref="#see3d2fc5"
+          />
+        </g>
+        <use
+          transform="rotate(67.5)"
+          xlinkHref="#se6643760"
+        />
+      </g>
+      <use
+        transform="scale(-1 1)"
+        xlinkHref="#sdf2c85fb"
+      />
+    </g>
+    <g
+      transform="matrix(8.1434 0 0 8.1434 0 58.787)"
+    >
+      <circle
+        r={1}
+      />
+      <g
+        id="s1830dce3"
+      >
+        <g
+          id="s3d3b3ac3"
+        >
+          <path
+            d="M.259.966L0 1.576l-.259-.61"
+            id="s36724cc8"
+          />
+          <use
+            transform="rotate(180)"
+            xlinkHref="#s36724cc8"
+          />
+        </g>
+        <use
+          transform="rotate(90)"
+          xlinkHref="#s3d3b3ac3"
+        />
+      </g>
+      <use
+        transform="rotate(30)"
+        xlinkHref="#s1830dce3"
+      />
+      <use
+        transform="rotate(60)"
+        xlinkHref="#s1830dce3"
+      />
+    </g>
+  </g>
+</svg>
+`;

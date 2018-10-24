@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagTr renders without crashing 1`] = `
+<svg
+  viewBox="0 0 1200 800"
+>
+  <path
+    d="M0 0h1200v800H0z"
+    fill="#E30A17"
+  />
+  <circle
+    cx={425}
+    cy={400}
+    fill="#fff"
+    r={200}
+  />
+  <circle
+    cx={475}
+    cy={400}
+    fill="#e30a17"
+    r={160}
+  />
+  <path
+    d="M583.334 400l180.901 58.779-111.804-153.885v190.212l111.804-153.885z"
+    fill="#fff"
+  />
+</svg>
+`;

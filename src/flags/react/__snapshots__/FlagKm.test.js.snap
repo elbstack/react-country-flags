@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagKm renders without crashing 1`] = `
+<svg
+  viewBox="0 0 500 300"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <path
+    d="M0 0h500v300H0z"
+    fill="#3A75C4"
+  />
+  <path
+    d="M0 0h500v225H0z"
+    fill="#CE1126"
+  />
+  <path
+    d="M0 0h500v150H0z"
+    fill="#FFF"
+  />
+  <path
+    d="M0 0h500v75H0z"
+    fill="#FFC61E"
+  />
+  <path
+    d="M0 300l250-150L0 0v300z"
+    fill="#3D8E33"
+  />
+  <circle
+    cx={85}
+    cy={150}
+    fill="#FFF"
+    r={67.5}
+  />
+  <circle
+    cx={115}
+    cy={150}
+    fill="#3D8E33"
+    r={67.5}
+  />
+  <path
+    d="M100.01 89.2l7.36 22.588-19.258-13.949h23.776L92.63 111.788l7.38-22.588z"
+    fill="#FFF"
+    id="s639b734d"
+  />
+  <use
+    xlinkHref="#s639b734d"
+    y={32.208}
+  />
+  <use
+    xlinkHref="#s639b734d"
+    y={64.417}
+  />
+  <use
+    xlinkHref="#s639b734d"
+    y={96.625}
+  />
+</svg>
+`;

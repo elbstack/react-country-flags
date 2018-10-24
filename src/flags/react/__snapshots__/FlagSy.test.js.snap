@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagSy renders without crashing 1`] = `
+<svg
+  viewBox="0 0 180 120"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <path
+    d="M0 0h180v120H0z"
+  />
+  <path
+    d="M0 0h180v80H0z"
+    fill="#fff"
+  />
+  <path
+    d="M0 0h180v40H0z"
+    fill="#ce1126"
+  />
+  <g
+    fill="#007a3d"
+    id="s3f41d733"
+  >
+    <g
+      id="see16fe3e"
+    >
+      <g
+        id="s2bec85f8"
+      >
+        <path
+          d="M54 47v13h8"
+          id="s9ec60cac"
+          transform="rotate(18 54 47)"
+        />
+        <use
+          transform="scale(-1 1)"
+          x={-108}
+          xlinkHref="#s9ec60cac"
+        />
+      </g>
+      <use
+        transform="rotate(72 54 60)"
+        xlinkHref="#s2bec85f8"
+      />
+    </g>
+    <use
+      transform="rotate(-72 54 60)"
+      xlinkHref="#s2bec85f8"
+    />
+    <use
+      transform="rotate(144 54 60)"
+      xlinkHref="#see16fe3e"
+    />
+  </g>
+  <use
+    x={72}
+    xlinkHref="#s3f41d733"
+  />
+</svg>
+`;
