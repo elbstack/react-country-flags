@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagBa renders without crashing 1`] = `
+<svg
+  viewBox="0 0 16 8"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <path
+    d="M0 0h16v8H0z"
+    fill="#002395"
+  />
+  <path
+    d="M4.24 0h8v8z"
+    fill="#fecb00"
+  />
+  <g
+    id="sbcf6d303"
+  >
+    <path
+      d="M2.353.525L2.8-.85 3.247.525l-1.17-.85h1.446z"
+      fill="#fff"
+      id="s637b9754"
+    />
+    <use
+      x={1}
+      xlinkHref="#s637b9754"
+      y={1}
+    />
+    <use
+      x={2}
+      xlinkHref="#s637b9754"
+      y={2}
+    />
+  </g>
+  <use
+    x={3}
+    xlinkHref="#sbcf6d303"
+    y={3}
+  />
+  <use
+    x={6}
+    xlinkHref="#sbcf6d303"
+    y={6}
+  />
+</svg>
+`;

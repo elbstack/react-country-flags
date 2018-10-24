@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagCv renders without crashing 1`] = `
+<svg
+  viewBox="0 0 510 300"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <path
+    d="M0 0h510v300H0z"
+    fill="#003893"
+  />
+  <path
+    d="M0 150h510v75H0z"
+    fill="#fff"
+  />
+  <path
+    d="M0 175h510v25H0z"
+    fill="#cf2027"
+  />
+  <g
+    fill="#f7d116"
+    transform="translate(191.25 187.5)"
+  >
+    <g
+      id="sba450f61"
+    >
+      <g
+        id="safa48575"
+        transform="translate(0 -75)"
+      >
+        <g
+          id="s84117a7b"
+        >
+          <path
+            d="M0-15V0h7.5"
+            id="s0088d7a7"
+            transform="rotate(18 0 -15)"
+          />
+          <use
+            transform="scale(-1 1)"
+            xlinkHref="#s0088d7a7"
+          />
+        </g>
+        <use
+          transform="rotate(72)"
+          xlinkHref="#s84117a7b"
+        />
+        <use
+          transform="rotate(144)"
+          xlinkHref="#s84117a7b"
+        />
+        <use
+          transform="rotate(216)"
+          xlinkHref="#s84117a7b"
+        />
+        <use
+          transform="rotate(288)"
+          xlinkHref="#s84117a7b"
+        />
+      </g>
+      <use
+        xlinkHref="#safa48575"
+        y={150}
+      />
+    </g>
+    <use
+      transform="rotate(72)"
+      xlinkHref="#sba450f61"
+    />
+    <use
+      transform="rotate(144)"
+      xlinkHref="#sba450f61"
+    />
+    <use
+      transform="rotate(216)"
+      xlinkHref="#sba450f61"
+    />
+    <use
+      transform="rotate(288)"
+      xlinkHref="#sba450f61"
+    />
+  </g>
+</svg>
+`;

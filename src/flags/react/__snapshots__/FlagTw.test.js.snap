@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagTw renders without crashing 1`] = `
+<svg
+  viewBox="-60 -40 240 160"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <rect
+    fill="#fe0000"
+    height="100%"
+    width="100%"
+    x={-60}
+    y={-40}
+  />
+  <rect
+    fill="#000095"
+    height="50%"
+    width="50%"
+    x={-60}
+    y={-40}
+  />
+  <path
+    d="M8 0L0 30-8 0l8-30M0 8l30-8L0-8l-30 8"
+    fill="#fff"
+    id="s4c495e82"
+  />
+  <use
+    transform="rotate(30)"
+    xlinkHref="#s4c495e82"
+  />
+  <use
+    transform="rotate(60)"
+    xlinkHref="#s4c495e82"
+  />
+  <circle
+    fill="#000095"
+    r={17}
+  />
+  <circle
+    fill="#fff"
+    r={15}
+  />
+</svg>
+`;

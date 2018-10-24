@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagUz renders without crashing 1`] = `
+<svg
+  viewBox="0 0 500 250"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <path
+    d="M0 0h500v250H0z"
+    fill="#1eb53a"
+  />
+  <path
+    d="M0 0h500v125H0z"
+    fill="#0099b5"
+  />
+  <path
+    d="M0 80h500v90H0z"
+    fill="#ce1126"
+  />
+  <path
+    d="M0 85h500v80H0z"
+    fill="#fff"
+  />
+  <circle
+    cx={70}
+    cy={40}
+    fill="#fff"
+    r={30}
+  />
+  <circle
+    cx={80}
+    cy={40}
+    fill="#0099b5"
+    r={30}
+  />
+  <g
+    fill="#fff"
+    transform="translate(136 64)"
+  >
+    <g
+      id="s81505487"
+    >
+      <g
+        id="s0cdc4632"
+      >
+        <g
+          id="se3b5ffcb"
+        >
+          <g
+            id="saa261654"
+          >
+            <path
+              d="M0-6v6h3"
+              id="sab6fe2ef"
+              transform="rotate(18 0 -6)"
+            />
+            <use
+              transform="scale(-1 1)"
+              xlinkHref="#sab6fe2ef"
+            />
+          </g>
+          <use
+            transform="rotate(72)"
+            xlinkHref="#saa261654"
+          />
+        </g>
+        <use
+          transform="rotate(-72)"
+          xlinkHref="#saa261654"
+        />
+        <use
+          transform="rotate(144)"
+          xlinkHref="#se3b5ffcb"
+        />
+      </g>
+      <use
+        xlinkHref="#s0cdc4632"
+        y={-24}
+      />
+      <use
+        xlinkHref="#s0cdc4632"
+        y={-48}
+      />
+    </g>
+    <use
+      x={24}
+      xlinkHref="#s81505487"
+    />
+    <use
+      x={48}
+      xlinkHref="#s81505487"
+    />
+    <use
+      x={-48}
+      xlinkHref="#s0cdc4632"
+    />
+    <use
+      x={-24}
+      xlinkHref="#s0cdc4632"
+    />
+    <use
+      x={-24}
+      xlinkHref="#s0cdc4632"
+      y={-24}
+    />
+  </g>
+</svg>
+`;

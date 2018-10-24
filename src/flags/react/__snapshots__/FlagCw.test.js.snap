@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagCw renders without crashing 1`] = `
+<svg
+  viewBox="0 0 54 36"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <path
+    d="M0 0h54v36H0z"
+    fill="#002b7f"
+  />
+  <path
+    d="M0 22.5h54V27H0z"
+    fill="#f9e814"
+  />
+  <g
+    fill="#fff"
+    id="s493bbfcf"
+  >
+    <g
+      id="s6b1ec82d"
+    >
+      <g
+        id="s4581c9ca"
+      >
+        <path
+          d="M12 8v4h2z"
+          id="sbbe6da30"
+          transform="rotate(18 12 8)"
+        />
+        <use
+          transform="scale(-1 1)"
+          x={-24}
+          xlinkHref="#sbbe6da30"
+        />
+      </g>
+      <use
+        transform="rotate(72 12 12)"
+        xlinkHref="#s4581c9ca"
+      />
+    </g>
+    <use
+      transform="rotate(-72 12 12)"
+      xlinkHref="#s4581c9ca"
+    />
+    <use
+      transform="rotate(144 12 12)"
+      xlinkHref="#s6b1ec82d"
+    />
+  </g>
+  <use
+    transform="scale(.75)"
+    x={-4}
+    xlinkHref="#s493bbfcf"
+    y={-4}
+  />
+</svg>
+`;

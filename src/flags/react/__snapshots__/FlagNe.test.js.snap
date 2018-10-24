@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagNe renders without crashing 1`] = `
+<svg
+  viewBox="0 0 700 600"
+>
+  <path
+    d="M0 0h700v600H0z"
+    fill="#0DB02B"
+  />
+  <path
+    d="M0 0h700v400H0z"
+    fill="#FFF"
+  />
+  <path
+    d="M0 0h700v200H0z"
+    fill="#e05206"
+  />
+  <circle
+    cx={350}
+    cy={300}
+    fill="#e05206"
+    r={85}
+  />
+</svg>
+`;

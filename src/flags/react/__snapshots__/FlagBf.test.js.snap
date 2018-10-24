@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagBf renders without crashing 1`] = `
+<svg
+  viewBox="0 0 900 600"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <path
+    d="M0 0h900v600H0z"
+    fill="#009e49"
+  />
+  <path
+    d="M0 0h900v300H0z"
+    fill="#ef2b2d"
+  />
+  <g
+    fill="#fcd116"
+    transform="translate(450 300)"
+  >
+    <g
+      id="s71e1f406"
+    >
+      <path
+        d="M0-100V0h50"
+        id="s7d36ca28"
+        transform="rotate(18 0 -100)"
+      />
+      <use
+        transform="scale(-1 1)"
+        xlinkHref="#s7d36ca28"
+      />
+    </g>
+    <use
+      transform="rotate(72)"
+      xlinkHref="#s71e1f406"
+    />
+    <use
+      transform="rotate(144)"
+      xlinkHref="#s71e1f406"
+    />
+    <use
+      transform="rotate(216)"
+      xlinkHref="#s71e1f406"
+    />
+    <use
+      transform="rotate(288)"
+      xlinkHref="#s71e1f406"
+    />
+  </g>
+</svg>
+`;

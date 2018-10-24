@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagIl renders without crashing 1`] = `
+<svg
+  viewBox="0 0 220 160"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <defs>
+    <path
+      d="M0-29.141l-25.237 43.712h50.474z"
+      fillOpacity={0}
+      id="s9038471d"
+      stroke="#0038b8"
+      strokeWidth={5.5}
+    />
+  </defs>
+  <path
+    d="M0 0h220v160H0z"
+    fill="#fff"
+  />
+  <path
+    d="M0 15h220v25H0zM0 120h220v25H0z"
+    fill="#0038b8"
+  />
+  <use
+    transform="translate(110 80)"
+    xlinkHref="#s9038471d"
+  />
+  <use
+    transform="rotate(180 55 40)"
+    xlinkHref="#s9038471d"
+  />
+</svg>
+`;

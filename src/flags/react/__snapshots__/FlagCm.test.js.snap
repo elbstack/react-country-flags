@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagCm renders without crashing 1`] = `
+<svg
+  viewBox="0 0 90 60"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <path
+    d="M0 0h30v60H0z"
+    fill="#007a5e"
+  />
+  <path
+    d="M30 0h30v60H30z"
+    fill="#ce1126"
+  />
+  <path
+    d="M60 0h30v60H60z"
+    fill="#fcd116"
+  />
+  <g
+    fill="#fcd116"
+    transform="translate(45 30)"
+  >
+    <g
+      id="sccbc82c5"
+    >
+      <path
+        d="M0-8v8h4z"
+        id="sa455f754"
+        transform="rotate(18 0 -8)"
+      />
+      <use
+        transform="scale(-1 1)"
+        xlinkHref="#sa455f754"
+      />
+    </g>
+    <use
+      transform="rotate(72)"
+      xlinkHref="#sccbc82c5"
+    />
+    <use
+      transform="rotate(144)"
+      xlinkHref="#sccbc82c5"
+    />
+    <use
+      transform="rotate(216)"
+      xlinkHref="#sccbc82c5"
+    />
+    <use
+      transform="rotate(288)"
+      xlinkHref="#sccbc82c5"
+    />
+  </g>
+</svg>
+`;

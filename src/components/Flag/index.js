@@ -8,10 +8,30 @@ const fetchFlag = async country => {
   return data;
 };
 
+// thanks to https://github.com/facebook/react/issues/5465#issuecomment-157888325
+const makeCancelable = promise => {
+  let hasCanceled_ = false;
+
+  const wrappedPromise = new Promise((resolve, reject) => {
+    promise.then(
+      val => (hasCanceled_ ? reject({ isCanceled: true }) : resolve(val)),
+      error => (hasCanceled_ ? reject({ isCanceled: true }) : reject(error))
+    );
+  });
+
+  return {
+    promise: wrappedPromise,
+    cancel() {
+      hasCanceled_ = true;
+    },
+  };
+};
+
 export const countries = (() => Object.keys(flags))();
 
 export default class Flags extends Component {
-  isMounted = true;
+  cancelUpdate = () => {};
+
   state = {
     flag: null,
   };
@@ -34,14 +54,16 @@ export default class Flags extends Component {
   }
 
   componentWillUnmount() {
-    this.isMounted = false;
+    this.cancelUpdate();
   }
 
   updateFlag() {
     const { country } = this.props;
-    fetchFlag(country).then(flag => {
-      if (this.isMounted) this.setState({ flag });
+    const { promise, cancel } = makeCancelable(fetchFlag(country));
+    promise.then(flag => {
+      this.setState({ flag });
     });
+    this.cancelUpdate = cancel;
   }
 
   render() {

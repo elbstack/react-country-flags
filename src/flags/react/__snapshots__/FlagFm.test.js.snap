@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagFm renders without crashing 1`] = `
+<svg
+  viewBox="-19 -10 38 20"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <path
+    d="M-19-10h38v20h-38z"
+    fill="#75b2dd"
+  />
+  <g
+    fill="#fff"
+    id="s17ec4d17"
+    transform="translate(0 -6)"
+  >
+    <g
+      id="sf00899f4"
+    >
+      <path
+        d="M0-2v2h1"
+        id="s0cf11e6f"
+        transform="rotate(18 0 -2)"
+      />
+      <use
+        transform="scale(-1 1)"
+        xlinkHref="#s0cf11e6f"
+      />
+    </g>
+    <use
+      transform="rotate(72)"
+      xlinkHref="#sf00899f4"
+    />
+    <use
+      transform="rotate(144)"
+      xlinkHref="#sf00899f4"
+    />
+    <use
+      transform="rotate(216)"
+      xlinkHref="#sf00899f4"
+    />
+    <use
+      transform="rotate(288)"
+      xlinkHref="#sf00899f4"
+    />
+  </g>
+  <use
+    transform="rotate(90)"
+    xlinkHref="#s17ec4d17"
+  />
+  <use
+    transform="rotate(180)"
+    xlinkHref="#s17ec4d17"
+  />
+  <use
+    transform="rotate(270)"
+    xlinkHref="#s17ec4d17"
+  />
+</svg>
+`;

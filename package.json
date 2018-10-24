@@ -22,8 +22,8 @@
     "build:flags": "node ./scripts/svg-to-react.js",
     "start": "react-scripts start",
     "preversion": "npm run build",
-    "build": "rollup -c",
-    "deploy": "react-scripts build",
+    "build": "CI=true npm run test && rollup -c",
+    "deploy": "CI=true npm run test && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -36,6 +36,14 @@
     "svg",
     "vector"
   ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!<rootDir>/node_modules/",
+      "!src/index.js",
+      "!src/App.js"
+    ]
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -77,6 +85,7 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-scripts": "2.0.0",
+    "react-test-renderer": "^16.5.2",
     "rollup": "^0.66.2",
     "rollup-plugin-babel": "^4.0.3",
     "rollup-plugin-cleaner": "^0.2.0",

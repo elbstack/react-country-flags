@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagNu renders without crashing 1`] = `
+<svg
+  viewBox="0 0 120 60"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <svg
+    viewBox="2 3 120 60"
+  >
+    <defs>
+      <path
+        d="M0 0v15h70v15H60L0 0zm0 30v10h30V0h30L0 30z"
+        id="s052d0373"
+      />
+    </defs>
+    <g
+      fill="none"
+      fillRule="evenodd"
+    >
+      <path
+        d="M2 3h120v60H2z"
+        fill="#002868"
+        fillRule="nonzero"
+      />
+      <path
+        d="M2 3l60 30m0-30L2 33"
+        fill="#000"
+        fillRule="nonzero"
+        stroke="#FFF"
+        strokeWidth={6}
+      />
+      <g
+        transform="translate(2 3)"
+      >
+        <mask
+          fill="#fff"
+          id="s4f4529e2"
+        >
+          <use
+            xlinkHref="#s052d0373"
+          />
+        </mask>
+        <path
+          d="M0 0l60 30m0-30L0 30"
+          fill="#000"
+          fillRule="nonzero"
+          mask="url(#b)"
+          stroke="#CF142B"
+          strokeWidth={4}
+        />
+      </g>
+      <path
+        d="M32 3v40M2 18h70"
+        fill="#000"
+        fillRule="nonzero"
+        stroke="#FFF"
+        strokeWidth={10}
+      />
+      <path
+        d="M32 3v40M2 18h70"
+        fill="#000"
+        fillRule="nonzero"
+        stroke="#CF142B"
+        strokeWidth={6}
+      />
+      <path
+        d="M62 3h60v60H2V33h60z"
+        fill="#FCD116"
+        fillRule="nonzero"
+      />
+      <g
+        fillRule="nonzero"
+        transform="translate(11 5)"
+      >
+        <circle
+          cx={21}
+          cy={13}
+          fill="#002868"
+          r={5.104}
+        />
+        <path
+          d="M21 7.896l3 9.233-7.854-5.706h9.708L18 17.129M20.853.29l1.764 5.427L18 2.363h5.706L19.09 5.717m19.413 4.573l1.763 5.427-4.616-3.354h5.706l-4.616 3.354M21 20.29l1.763 5.427-4.616-3.354h5.706l-4.616 3.354M3.5 10.29l1.763 5.427-4.616-3.354h5.706l-4.616 3.354"
+          fill="#FCD116"
+        />
+      </g>
+    </g>
+  </svg>
+</svg>
+`;

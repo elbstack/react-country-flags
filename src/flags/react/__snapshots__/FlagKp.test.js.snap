@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagKp renders without crashing 1`] = `
+<svg
+  viewBox="0 0 72 36"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <path
+    d="M0 0h72v36H0z"
+    fill="#024FA2"
+  />
+  <path
+    d="M0 6h72v24H0z"
+    fill="#fff"
+  />
+  <path
+    d="M0 7h72v22H0z"
+    fill="#ED1C27"
+  />
+  <circle
+    cx={24}
+    cy={18}
+    fill="#fff"
+    r={8}
+  />
+  <g
+    fill="#ED1C27"
+    transform="matrix(7.75 0 0 7.75 24 18)"
+  >
+    <g
+      id="s0f34304b"
+    >
+      <path
+        d="M0 0v1h.5z"
+        id="s535ea555"
+        transform="rotate(18 3.157 -.5)"
+      />
+      <use
+        transform="scale(-1 1)"
+        xlinkHref="#s535ea555"
+      />
+    </g>
+    <use
+      transform="rotate(72)"
+      xlinkHref="#s0f34304b"
+    />
+    <use
+      transform="rotate(-72)"
+      xlinkHref="#s0f34304b"
+    />
+    <use
+      transform="rotate(144)"
+      xlinkHref="#s0f34304b"
+    />
+    <use
+      transform="rotate(-144)"
+      xlinkHref="#s0f34304b"
+    />
+  </g>
+</svg>
+`;

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagPr renders without crashing 1`] = `
+<svg
+  viewBox="0 0 45 30"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <path
+    d="M0 0h45v30H0z"
+    fill="#ED0000"
+  />
+  <path
+    d="M0 9h45M0 21h45"
+    stroke="#FFF"
+    strokeWidth={6}
+  />
+  <path
+    d="M0 0l25.98 15L0 30z"
+    fill="#0050F0"
+  />
+  <g
+    fill="#FFF"
+    transform="matrix(5 0 0 5 8.66 15)"
+  >
+    <g
+      id="s53d7d484"
+    >
+      <path
+        d="M0 0v1h.5z"
+        id="s80f072d4"
+        transform="rotate(18 3.157 -.5)"
+      />
+      <use
+        transform="scale(-1 1)"
+        xlinkHref="#s80f072d4"
+      />
+    </g>
+    <use
+      transform="rotate(72)"
+      xlinkHref="#s53d7d484"
+    />
+    <use
+      transform="rotate(-72)"
+      xlinkHref="#s53d7d484"
+    />
+    <use
+      transform="rotate(144)"
+      xlinkHref="#s53d7d484"
+    />
+    <use
+      transform="rotate(-144)"
+      xlinkHref="#s53d7d484"
+    />
+  </g>
+</svg>
+`;

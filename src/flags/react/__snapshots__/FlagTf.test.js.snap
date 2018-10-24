@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagTf renders without crashing 1`] = `
+<svg
+  viewBox="0 0 600 400"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <defs>
+    <path
+      d="M0-1L.588.809-.952-.309H.952L-.588.809z"
+      fill="#fff"
+      id="sb449aac1"
+      transform="scale(21)"
+    />
+  </defs>
+  <path
+    d="M0 0h600v400H0z"
+    fill="#002395"
+  />
+  <path
+    d="M0 0h244v164H0z"
+    fill="#fff"
+  />
+  <path
+    d="M0 0h80v160H0z"
+    fill="#002395"
+  />
+  <path
+    d="M160 0h80v160h-80z"
+    fill="#ED2939"
+  />
+  <path
+    d="M355 183l12.875 20.5H404.5V275L377 232l-37 59h18l19-34 39 70 39-70 19 34h18l-37-59-27.5 43v-39.5H444l12.25-19.5H427.5v-12.5h36.625L477 183H355zm43 87.5h-40v14h40zm76 0h-40v14h40z"
+    fill="#fff"
+  />
+  <use
+    x={416}
+    xlinkHref="#sb449aac1"
+    y={362}
+  />
+  <use
+    x={371}
+    xlinkHref="#sb449aac1"
+    y={328}
+  />
+  <use
+    x={461}
+    xlinkHref="#sb449aac1"
+    y={328}
+  />
+  <use
+    x={333}
+    xlinkHref="#sb449aac1"
+    y={227}
+  />
+  <use
+    x={499}
+    xlinkHref="#sb449aac1"
+    y={227}
+  />
+</svg>
+`;

@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagAn renders without crashing 1`] = `
+<svg
+  viewBox="-27 -14 54 36"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <path
+    d="M-27-14h54v36h-54z"
+    fill="#fff"
+  />
+  <path
+    d="M-6-14H6v36H-6z"
+    fill="#dc171d"
+  />
+  <path
+    d="M-27-2h54v12h-54z"
+    fill="#012a87"
+  />
+  <g
+    fill="#fff"
+    id="s67c630d5"
+    transform="scale(1.5)"
+  >
+    <g
+      id="s9818fb11"
+    >
+      <path
+        d="M0 0v1h.5z"
+        id="s87e52a8c"
+        transform="rotate(18 3.157 -.5)"
+      />
+      <use
+        transform="scale(-1 1)"
+        xlinkHref="#s87e52a8c"
+      />
+    </g>
+    <use
+      transform="rotate(72)"
+      xlinkHref="#s9818fb11"
+    />
+    <use
+      transform="rotate(-72)"
+      xlinkHref="#s9818fb11"
+    />
+    <use
+      transform="rotate(144)"
+      xlinkHref="#s9818fb11"
+    />
+    <use
+      transform="rotate(-144)"
+      xlinkHref="#s9818fb11"
+    />
+  </g>
+  <g
+    id="s20030a88"
+  >
+    <use
+      transform="translate(8 3.314)"
+      xlinkHref="#s67c630d5"
+    />
+    <use
+      transform="translate(3.314 8)"
+      xlinkHref="#s67c630d5"
+    />
+  </g>
+  <use
+    transform="scale(-1 1)"
+    xlinkHref="#s20030a88"
+  />
+</svg>
+`;

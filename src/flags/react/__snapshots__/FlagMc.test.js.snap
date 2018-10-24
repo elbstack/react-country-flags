@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagMc renders without crashing 1`] = `
+<svg
+  viewBox="0 0 750 600"
+>
+  <path
+    d="M0 0h750v600H0z"
+    fill="#FFF"
+  />
+  <path
+    d="M0 0h750v300H0z"
+    fill="#CE1126"
+  />
+</svg>
+`;

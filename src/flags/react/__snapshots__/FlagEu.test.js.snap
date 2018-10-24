@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagEu renders without crashing 1`] = `
+<svg
+  viewBox="0 0 810 540"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <defs>
+    <g
+      id="s91bf8332"
+    >
+      <g
+        id="sf412d9e4"
+      >
+        <path
+          d="M0 0v1h.5z"
+          id="s0f53adc6"
+          transform="rotate(18 3.157 -.5)"
+        />
+        <use
+          transform="scale(-1 1)"
+          xlinkHref="#s0f53adc6"
+        />
+      </g>
+      <g
+        id="sa8efbd1a"
+      >
+        <use
+          transform="rotate(72)"
+          xlinkHref="#sf412d9e4"
+        />
+        <use
+          transform="rotate(144)"
+          xlinkHref="#sf412d9e4"
+        />
+      </g>
+      <use
+        transform="scale(-1 1)"
+        xlinkHref="#sa8efbd1a"
+      />
+    </g>
+  </defs>
+  <path
+    d="M0 0h810v540H0z"
+    fill="#039"
+  />
+  <g
+    fill="#fc0"
+    transform="matrix(30 0 0 30 405 270)"
+  >
+    <use
+      xlinkHref="#s91bf8332"
+      y={-6}
+    />
+    <use
+      xlinkHref="#s91bf8332"
+      y={6}
+    />
+    <g
+      id="s5cea22cb"
+    >
+      <use
+        x={-6}
+        xlinkHref="#s91bf8332"
+      />
+      <use
+        transform="rotate(-144 -2.344 -2.11)"
+        xlinkHref="#s91bf8332"
+      />
+      <use
+        transform="rotate(144 -2.11 -2.344)"
+        xlinkHref="#s91bf8332"
+      />
+      <use
+        transform="rotate(72 -4.663 -2.076)"
+        xlinkHref="#s91bf8332"
+      />
+      <use
+        transform="rotate(72 -5.076 .534)"
+        xlinkHref="#s91bf8332"
+      />
+    </g>
+    <use
+      transform="scale(-1 1)"
+      xlinkHref="#s5cea22cb"
+    />
+  </g>
+</svg>
+`;

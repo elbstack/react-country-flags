@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagEe renders without crashing 1`] = `
+<svg
+  viewBox="0 0 33 21"
+>
+  <path
+    d="M0 0h33v21H0z"
+    fill="#FFF"
+  />
+  <path
+    d="M0 0h33v14H0z"
+  />
+  <path
+    d="M0 0h33v7H0z"
+    fill="#4891D9"
+  />
+</svg>
+`;

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagSo renders without crashing 1`] = `
+<svg
+  viewBox="0 0 81 54"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <path
+    d="M0 0h81v54H0z"
+    fill="#4189DD"
+  />
+  <g
+    transform="matrix(13 0 0 13 40.5 27)"
+  >
+    <g
+      id="seea529c4"
+    >
+      <path
+        d="M0 0v1h.5z"
+        fill="#FFF"
+        id="s529b48d0"
+        transform="rotate(18 3.157 -.5)"
+      />
+      <use
+        transform="scale(-1 1)"
+        xlinkHref="#s529b48d0"
+      />
+    </g>
+    <use
+      transform="rotate(72)"
+      xlinkHref="#seea529c4"
+    />
+    <use
+      transform="rotate(-72)"
+      xlinkHref="#seea529c4"
+    />
+    <use
+      transform="rotate(144)"
+      xlinkHref="#seea529c4"
+    />
+    <use
+      transform="rotate(-144)"
+      xlinkHref="#seea529c4"
+    />
+  </g>
+</svg>
+`;

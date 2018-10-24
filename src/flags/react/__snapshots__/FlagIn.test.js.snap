@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagIn renders without crashing 1`] = `
+<svg
+  viewBox="0 0 225 150"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <path
+    d="M0 0h225v150H0z"
+    fill="#f93"
+  />
+  <path
+    d="M0 50h225v50H0z"
+    fill="#fff"
+  />
+  <path
+    d="M0 100h225v50H0z"
+    fill="#128807"
+  />
+  <g
+    transform="translate(112.5 75)"
+  >
+    <circle
+      fill="#008"
+      r={20}
+    />
+    <circle
+      fill="#fff"
+      r={17.5}
+    />
+    <circle
+      fill="#008"
+      r={3.5}
+    />
+    <g
+      id="s802f1c83"
+    >
+      <g
+        id="sd204b3bc"
+      >
+        <g
+          id="s19e0389f"
+        >
+          <g
+            fill="#008"
+            id="s3810a7b3"
+          >
+            <circle
+              r={0.875}
+              transform="rotate(7.5 -8.75 133.5)"
+            />
+            <path
+              d="M0 17.5L.6 7 0 2l-.6 5L0 17.5z"
+            />
+          </g>
+          <use
+            transform="rotate(15)"
+            xlinkHref="#s3810a7b3"
+          />
+        </g>
+        <use
+          transform="rotate(30)"
+          xlinkHref="#s19e0389f"
+        />
+      </g>
+      <use
+        transform="rotate(60)"
+        xlinkHref="#sd204b3bc"
+      />
+    </g>
+    <use
+      transform="rotate(120)"
+      xlinkHref="#s802f1c83"
+    />
+    <use
+      transform="rotate(-120)"
+      xlinkHref="#s802f1c83"
+    />
+  </g>
+</svg>
+`;
