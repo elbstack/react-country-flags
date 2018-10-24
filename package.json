@@ -16,7 +16,9 @@
     "dist",
     "README.md",
     "src/components/Flag/index.js",
-    "src/flags"
+    "src/flags",
+    "!src/**/*.test.js",
+    "!src/**/*.test.js.snap"
   ],
   "scripts": {
     "build:flags": "node ./scripts/svg-to-react.js",
