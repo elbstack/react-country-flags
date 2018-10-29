@@ -63,7 +63,10 @@ const getHash = str => {
 const clearDirectory = async directory => {
   const dirContent = await readDirectoryAsync(directory);
   await Promise.all(
-    dirContent.map(async file => {
+    dirContent
+      // filter underscore directories
+      .filter(name => name.indexOf('__') === -1)
+      .map(async file => {
       unlinkAsync(path.resolve(directory, file));
     })
   );

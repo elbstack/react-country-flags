@@ -1,13 +1,13 @@
 {
   "name": "react-country-flags",
-  "version": "2.2.2",
+  "version": "2.2.3-0",
   "description": "Flags of the world as react components.",
   "author": "Schubidu",
   "license": "MIT",
   "repository": "elbstack/react-country-flags",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
-  "jsnext:main": "dist/index.es.js",
+  "types": "./index.d.ts",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
@@ -17,6 +17,7 @@
     "README.md",
     "src/components/Flag/index.js",
     "src/flags",
+    "./index.d.ts",
     "!src/**/*.test.js",
     "!src/**/*.test.js.snap"
   ],
