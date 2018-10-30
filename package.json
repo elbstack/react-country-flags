@@ -88,7 +88,7 @@
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-scripts": "2.0.0",
-    "react-test-renderer": "^16.5.2",
+    "react-test-renderer": "^16.6.0",
     "rollup": "^0.66.2",
     "rollup-plugin-babel": "^4.0.3",
     "rollup-plugin-cleaner": "^0.2.0",
